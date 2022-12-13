@@ -1,0 +1,6 @@
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Metrics/AbcSize:
+  Max: 20
+Metrics/MethodLength:
+  Max: 30
