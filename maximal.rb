@@ -6,7 +6,6 @@ require './lib/timeline'
 
 # read in reimbursement rates from csv
 rates = CSV.read('data/rates.csv', headers: true, converters: %i[numeric])
-# rates[row['cost_type']] = Hash['travel', row['travel_rate'], 'full', row['full_rate']]
 
 # process all project data sets
 Dir.glob('data/project-set-*.csv').each do |dataset|
